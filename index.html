@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-icons@1.15.0/index.min.js"></script>
+    <script src="https://kit.fontawesome.com/2efb3a84cb.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a class="grey-text" href="#game-section">Game Developlment</a></li>
+        <li><a class="grey-text" href="#fs-section">Full-stack Developlment</a></li>
+        <li><a class="grey-text" href="#branding-section">Branding</a></li>
+        <li><a class="grey-text" href="#financial-section">Financial Modeling</a></li>
+        <li><a class="grey-text" href="#skills-section">Skill Stack</a></li>
+    </ul>
+    <nav style="background-color: #f5f5f5">
+        <div class="nav-wrapper grey lighten-4 container row">
+            <a href="#" class="brand-logo grey-text"><img id="header-logo" src="./images/logo.svg"
+                    alt="Gamma Interactive"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="grey-text" href="#">Home</a></li>
+                <li><a class="grey-text" href="#about-section">About</a></li>
+                <li><a class="dropdown-trigger grey-text" href="#!" data-target="dropdown1">Additional Info<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="grey-text" href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main container -->
+    <div class="main-container">
+        <!-- main header/banner -->
+        <div id="main-header" class="row scrollspy parallax-container fill-window">
+            <div class="parallax"><img src="./images/bg.png"></div>
+            <div id="header-left" class="col s12 m12 l5 offset-l1 center-align">
+                <div class="row">
+                    <div class="col m6">
+                        <img id="header-icon" class="center-head" src="./images/icon.svg"
+                            style="max-width:100%; max-height: 100%;" alt="Gamma Interactive">
+                    </div>
+                    <div id="header-text" class="col m6">
+                        BIG IDEAS LITTLE STUDIO
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="game-dev-box" class="col s12 m6 l3 center-align">
+                        <div id="square" class="row">
+                            <p><i class="fas fa-gamepad"></i></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-align center all-caps icon-text">Game Development/ Publishing</p>
+                        </div>
+                    </div>
+                    <div id="fs-box" class="col s12 m6 l3 center-align">
+                        <div id="square" class="row">
+                            <p><i class="fas fa-code"></i></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-align center all-caps icon-text">Full Stack</p>
+                        </div>
+                    </div>
+                    <div id="branding-box" class="col s12 m6 l3 center-align">
+                        <div id="square" class="row">
+                            <p><i class="fas fa-flag-checkered"></i></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-align center all-caps icon-text">Branding</p>
+                        </div>
+                    </div>
+                    <div id="financial-box" class="col s12 m6 l3 center-align">
+                        <div id="square" class="row">
+                            <p><i class="fas fa-chart-line"></i></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-align center all-caps icon-text">Financial Modeling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-graphic" class="col s12 m12 l5 center-align">
+                <img class="center-align" id="header-img" src="./images/top_graphic@2x.png"
+                    style="max-width:100%; max-height: 100%;" alt="Trolol">
+            </div>
+        </div>
+
+        <!-- about section -->
+        <div id="about-section" class="row fill-window scrollspy container">
+            <h3>About Gamma</h3>
+            <p>Who remembers their first video game? Who remembers that one breathtaking story? How about that one
+                character that made you dream of something bigger than life. Gamma Interactive is a mobile gaming
+                company founded by two such dreamers who played their first video game before they can even walk.
+                Welcome to our imagination.</p>
+        </div>
+        <!-- game dev section -->
+        <div id="game-section" class="row fill-window scrollspy container">
+            <h3>Game Development</h3>
+            <p>With over 40 years of combined work experience in the entertainment and marketing fields, our development
+                team designs and produces products through rigid, standardized creative and business methodologies.
+                Though we currently have a focus on mobile titles, we have the know-how and resources to scale to fit
+                the demands of our clients. We are currently looking to grow with the ability to take on multiple
+                concurrent projects. Let us know when we can get started on your project today!</p>
+        </div>
+        <div id="fs-funding" class="row fill-window scrollspy container">
+            <h3>Funding & Publishing</h3>
+            <p>While there are many publishers in the wild world of gaming, Gamma Interactive holds unique opportunities
+                for game development studios of smaller stature (though we know you all have big ideas). We have
+                connections to many of the world’s top publishers and financiers--and through a vetting process, we can
+                assist with proper sourcing of publishing, distribution, and even funding. Because we are also a
+                development studio, we can tackle your needs with key expert strategies drawn from our own professional
+                experiences finding the right home for our games. Contact us today to get the conversation started!</p>
+        </div>
+        <!-- full stack section -->
+        <div id="fs-section" class="row fill-window scrollspy container">
+            <h3>Full Stack Development</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor quasi exercitationem velit
+                aspernatur, eaque accusamus quod nobis obcaecati quaerat placeat delectus nesciunt, atque facilis,
+                provident officiis deleniti reprehenderit saepe.</p>
+
+        </div>
+        <!-- branding section -->
+        <div id="branding-section" class="row fill-window scrollspy container">
+            <h3>Branding</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor quasi exercitationem velit
+                aspernatur, eaque accusamus quod nobis obcaecati quaerat placeat delectus nesciunt, atque facilis,
+                provident officiis deleniti reprehenderit saepe.</p>
+
+        </div>
+        <!-- financial section -->
+        <div id="financial-section" class="row fill-window scrollspy container">
+            <h3>Financial Modeling</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor quasi exercitationem velit
+                aspernatur, eaque accusamus quod nobis obcaecati quaerat placeat delectus nesciunt, atque facilis,
+                provident officiis deleniti reprehenderit saepe.</p>
+        </div>
+        <!-- skills section -->
+        <div id="skills-section" class="row fill-window scrollspy container">
+            <div class="row text-align center">
+                <h3>Skill Stack</h3>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col s4 m4 l4">
+                        <div class="row">
+                            <p class="text-align center"><i id="square" class="fab fa-angular"></i></p>
+                            <p class="text-align center all-caps icon-text">Angular</p>
+                        </div>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <div class="row valign center">
+                            <!-- <p class="text-align center"><i id="square" class="fab fa-angular"></i></p> -->
+                            <div class="square">
+                                <img height="72" width="72"
+                                    src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/unity.svg" />
+                            </div>
+                            <p class="text-align center all-caps icon-text">Unity</p>
+                        </div>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <div class="row">
+                            <p class="text-align center"><i id="square" class="fab fa-react"></i></p>
+                            <p class="text-align center all-caps icon-text">React</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4 m4 l4">
+                        <div class="row">
+                            <p class="text-align center"><i id="square" class="fab fa-node-js"></i></p>
+                            <p class="text-align center all-caps icon-text">Node</p>
+                        </div>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <div class="row valign center">
+                            <div class="square">
+                                <img height="72" width="72"
+                                    src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mongodb.svg" />
+                            </div>
+                            <p class="text-align center all-caps icon-text">MongoDB</p>
+                        </div>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <div class="row">
+                            <p class="text-align center"><i id="square" class="fab fa-hubspot"></i></p>
+                            <p class="text-align center all-caps icon-text">Hubpsot</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4 m4 l4">
+                        <div class="row">
+                            <p class="text-align center"><i id="square" class="fas fa-chart-line"></i></p>
+                            <p class="text-align center all-caps icon-text">Financial</p>
+                        </div>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <div class="row">
+                            <p class="text-align center"><i id="square" class="fas fa-money-bill-wave"></i></p>
+                            <p class="text-align center all-caps icon-text">Funds-Op</p>
+                        </div>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <div class="row">
+                            <p class="text-align center"><i id="square" class="fas fa-images"></i></p>
+                            <p class="text-align center all-caps icon-text">Financial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact section -->
+        <div id="contact-section" class="row fill-window scrollspy container">
+            <div class="row">
+                <h3>Contact</h3>
+            </div>
+            <div class="row">
+                <div class="col l6 m12 s12">
+                    <img src="./images/logo.png" style="max-width:100%; max-height: 100%;" alt="Trolol">
+                </div>
+                <div class="col l6 m12 s12">
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        M.AutoInit();
+        $(document).ready(function () {
+            $('.scrollspy').scrollSpy();
+            $('.parallax').parallax();
+        })
+    </script>
+</body>
+
+</html>
