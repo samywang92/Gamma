@@ -7,7 +7,7 @@ nav{
     z-index: 99;
 }
 
-#square{
+.square{
     display: inline-block;
     margin: 0;
     height: 96px;
