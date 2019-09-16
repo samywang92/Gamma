@@ -49,7 +49,7 @@ nav{
 }
 
 #header-img{
-    padding-top: 2vh;
+    padding-top: 5vh;
     max-height: 100%;
     max-width: 100%;
 }
@@ -103,9 +103,37 @@ nav{
     z-index: -1;
   }
 
+#sm-screen-header{
+    display: none;
+}
 
-  @media only screen and (max-width: 768px) {
+#sm-header-graphic {
+    height: 75%;
+    width: 75%;
+}
+
+
+@media only screen and (max-width: 768px) {
     .row .col.offset-m0 {
         margin-left: auto;
     }
-  }
+
+    #header-left {
+        padding-top: 10%;
+    }
+
+    #sm-screen-header {
+        display: block;
+    }
+
+    #header-graphic {
+        display: none;
+    }
+}
+
+/*Ipad*/
+@media only screen and (max-width: 1366px) {
+    #header-graphic {
+        padding-top: 10vh;
+    }
+}
